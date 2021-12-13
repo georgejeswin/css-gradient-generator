@@ -1,7 +1,27 @@
 body {
   display: flex;
+  height: 40vh;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to right, #e66465, #9198e5);
+  background: linear-gradient(to right, rgb(16, 36, 188), rgb(211, 115, 171));
+}
+h1 {
+  font-size: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(37, 36, 36);
+  margin-bottom: 100px;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(37, 36, 36);
+}
+h3 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(245, 245, 245);
 }
